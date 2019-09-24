@@ -17,7 +17,8 @@ public class Death : MonoBehaviour {
 
 	public void StartExplosion() {
         explosion.SetActive(true);
-		soundManager.PlayMainExplosion();
+		SoundLocator.GetSoundManager().PlayMainExplosion();
+		//soundManager.PlayMainExplosion();
         //SoundManager.Instance.PlayMainExplosion();
         GameObject tower = gameObject.transform.Find("TowerBase").gameObject;
 
