@@ -15,6 +15,8 @@ public class Enemy : MonoBehaviour {
     private Vector3 currentPosition;
     private float offset;
 
+	private SoundManager soundManager;
+
     [SerializeField]
     float freezeTime;
     // Use this for initialization
@@ -24,8 +26,9 @@ public class Enemy : MonoBehaviour {
         offset = 0.1f;
 	    GetTowers();
 
-        //Debug.Log(towers.Count);
-        transform.position = new Vector3(transform.position.x, transform.position.y + offset, transform.position.z);
+		soundManager = SoundLocator.GetSoundManager();
+		//Debug.Log(towers.Count);
+		transform.position = new Vector3(transform.position.x, transform.position.y + offset, transform.position.z);
     }
 
     void GetTowers() {
@@ -105,14 +108,17 @@ public class Enemy : MonoBehaviour {
         }
         return tMin;
     }
+
     public void Explode()
     {
-        SoundManager.Instance.PlayBombExplode();
+		//SoundManager.Instance.PlayBombExplode();
+		soundManager.PlayBombExplode();
         ParticleSystem exp = GetComponent<ParticleSystem>();
         exp.Play();
-        transform.FindChild("Bomb_Roll").gameObject.SetActive(false);
+        transform.Find("Bomb_Roll").gameObject.SetActive(false);
         speed = 0;
-        Destroy(this.gameObject, exp.main.duration);
+		//gameObject.SetActive(false);
+        //Destroy(this.gameObject, exp.main.duration);
     }
 
 }

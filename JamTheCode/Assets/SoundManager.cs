@@ -4,14 +4,14 @@ using UnityEngine;
 
 public class SoundManager : MonoBehaviour {
 
-    public static SoundManager Instance
+    /*public static SoundManager Instance
     {
         get
         {
             return s_Instance;
         }
     }
-    private static SoundManager s_Instance;
+    private static SoundManager s_Instance;*/
 
 
     //Single audio files
@@ -34,8 +34,11 @@ public class SoundManager : MonoBehaviour {
     {
         activeSounds = new ArrayList();
 
-        //Singleton initialization
-        s_Instance = this;
+		//Singleton initialization
+		//s_Instance = this;
+
+		//Service Locator
+		SoundLocator.Provide(this);
 
         //List of all sounds
         _towerCrumble = (AudioClip)Resources.Load("Sounds/TowerCrumble");

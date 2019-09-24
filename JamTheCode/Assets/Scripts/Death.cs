@@ -6,13 +6,20 @@ using UnityEngine.SceneManagement;
 public class Death : MonoBehaviour {
     [SerializeField] private GameObject explosion;
 
+	private SoundManager soundManager;
+
 
     private bool startedCoroutine = false;
 
-    public void StartExplosion() {
+	private void Awake() {
+		soundManager = SoundLocator.GetSoundManager();
+	}
+
+	public void StartExplosion() {
         explosion.SetActive(true);
-        SoundManager.Instance.PlayMainExplosion();
-        GameObject tower = gameObject.transform.FindChild("TowerBase").gameObject;
+		soundManager.PlayMainExplosion();
+        //SoundManager.Instance.PlayMainExplosion();
+        GameObject tower = gameObject.transform.Find("TowerBase").gameObject;
 
         tower.SetActive(false);
 

@@ -21,6 +21,8 @@ public class TowerBase : MonoBehaviour {
     [SerializeField] protected float explosionRangeDecrease = 0.5f;
     protected float explosionRange;
 
+	protected SoundManager soundManager;
+
 
 
     [SerializeField]
@@ -53,6 +55,7 @@ public class TowerBase : MonoBehaviour {
 
         //GetComponent<SpriteRenderer>().color = Color.green;
         mainTower = GameObject.Find("MainTower").GetComponent<TowerBase>();
+		soundManager = SoundLocator.GetSoundManager();
         
         RandomizeActivationKeys();
         explosionRange = maxExplosionRange;
@@ -173,8 +176,11 @@ public class TowerBase : MonoBehaviour {
         
     }
     
-    virtual public void Explosion() {
-        GameObject go = Instantiate(explosion, transform);
+    virtual public void Explosion(GameObject explosionObj) {
+		if (!explosionObj)
+			explosionObj = explosion;
+
+        GameObject go = Instantiate(explosionObj, transform);
         go.GetComponent<Explosion>().SetSizeMultiplier(explosionRange);
         explosionRange -= explosionRangeDecrease;
         if (explosionRange < 0) explosionRange = 0;
@@ -184,7 +190,6 @@ public class TowerBase : MonoBehaviour {
         //GameObject select = Instantiate(selectObject, transform);
         //select.transform.position = new Vector3(transform.position.x, transform.position.y + 0.1f, transform.position.z);
         //select.transform.localScale = new Vector3(0.7f, 0.7f, 0.7f;
-
     }
 
     virtual public void Die() {
@@ -195,7 +200,8 @@ public class TowerBase : MonoBehaviour {
             ashes.SetActive(true);
             //ashes.transform.Rotate(Vector3.forward, Random.value * 360);
             animations.Play("Destruction");
-            SoundManager.Instance.PlayTowerCrumble();
+			soundManager.PlayTowerCrumble();
+            //SoundManager.Instance.PlayTowerCrumble();
         } 
         isActive = false;
         GetComponent<SpriteRenderer>().enabled = false;
@@ -231,8 +237,9 @@ public class TowerBase : MonoBehaviour {
             if (!isActive)
             {
                 animations.Play("Repair");
-                SoundManager.Instance.PlayTowerCrumble();
-            }
+				soundManager.PlayTowerCrumble();
+				//SoundManager.Instance.PlayTowerCrumble();
+			}
 
             isActive = true;
         }

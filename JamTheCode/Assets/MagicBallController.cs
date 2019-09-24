@@ -31,7 +31,8 @@ public class MagicBallController : MonoBehaviour {
     {
         if(other.tag == "Enemy")
         {
-            Destroy(other.gameObject);
+			other.gameObject.SetActive(false);
+            //Destroy(other.gameObject);
             Destroy(this.gameObject);
         }
     }

@@ -48,7 +48,7 @@ public class AudioManager : MonoBehaviour
     // Use this for initialization
     void Awake()
     {
-        _BGMusic = transform.FindChild("BackgroundMusic").gameObject;
+        _BGMusic = transform.Find("BackgroundMusic").gameObject;
 
         _CurrentBackgroundMusic = null;
 

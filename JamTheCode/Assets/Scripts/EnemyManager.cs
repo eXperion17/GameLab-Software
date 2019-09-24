@@ -9,8 +9,8 @@ public class EnemyManager : MonoBehaviour
 {
     private GameObject mainTower;
 
-    [SerializeField]
-    private GameObject enemy;
+	[SerializeField]
+	private ObjectPool enemyPool;
     [SerializeField]
     public float interval;
     public event Action OnLevelComplete;
@@ -89,7 +89,7 @@ public class EnemyManager : MonoBehaviour
             while (waveCount < 4)
             {
                 waveCountMessage.text = "";
-                Debug.Log(interval);
+                //Debug.Log(interval);
                 for (int i = 0; i < waveEnemyAmount; i++)
                 {
                     SpawnEnemy();
@@ -128,7 +128,7 @@ public class EnemyManager : MonoBehaviour
     {
         GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
 
-        Debug.Log(enemies.Length);
+        //Debug.Log(enemies.Length);
 
         if (enemies.Length == 0)
             return false;
@@ -161,9 +161,10 @@ public class EnemyManager : MonoBehaviour
     public void SpawnEnemy()
     {
         Vector3 randomPosition = RandomCircle(this.transform.position, spawnDistance);
-        Instantiate(enemy, randomPosition, Quaternion.identity);
 
-
+		var enemy = enemyPool.GetObject();
+		enemy.transform.position = randomPosition;
+        //Instantiate(enemy, randomPosition, Quaternion.identity);
     }
     public void SpawnTutorialWave()
     {

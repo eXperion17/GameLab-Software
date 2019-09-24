@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+
 public class Tower : TowerBase {
     //[SerializeField]
 	private ActivateKeys activationKey;
@@ -10,6 +11,8 @@ public class Tower : TowerBase {
     [SerializeField]
     private GameObject freeze;
     private GameObject rangeIndicator;
+
+	private IPowerUp currentPowerUp;
     
     private float scaleSpeed;
     [SerializeField]
@@ -46,20 +49,27 @@ public class Tower : TowerBase {
         }
 
     }
-    public override void Explosion()
-    {
-        if (Input.GetButton("Power"))
-        {
-            FreezePower();
-            Debug.Log("Poweeeeeeeeeeeeeeeeeeeeeeeeeeeer");
-        }
-        else
-        {
-            base.Explosion();
-        }
-        InputText.text = "";
 
+    public override void Explosion(GameObject explosionObj)
+    {
+        if (Input.GetButton("Power") && HasPowerUp())
+			currentPowerUp.Activation(this);
+		else
+			base.Explosion(explosionObj);
+
+		
+        InputText.text = "";
     }
+
+	private bool HasPowerUp() 
+	{
+		if (currentPowerUp == null)
+			currentPowerUp = GameObject.Find("PowerupManager").GetComponent<PowerupManager>().GetPowerUp();
+
+		return currentPowerUp != null;
+	}
+
+	/*
     void FreezePower()
     {
         SoundManager.Instance.PlayFreeze();
@@ -69,7 +79,7 @@ public class Tower : TowerBase {
         explosionRange -= explosionRangeDecrease;
         if (explosionRange < 0) explosionRange = 0;
         go.transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z);
-    }
+    }*/
 
 
     private void InputToColor(ActivateKeys key)
@@ -109,23 +119,23 @@ public class Tower : TowerBase {
         {
             //A-button
             case ActivateKeys.X:
-                //inputText = "S";
-                inputText = "A";
+                //inputText = "S"; A
+                inputText = "S";
                 break;
             //B-button
             case ActivateKeys.Circle:
-                //inputText = "D";
-                inputText = "B";
+                //inputText = "D"; B
+                inputText = "D";
                 break;
             //X-Button
             case ActivateKeys.Square:
-                //inputText = "A";
-                inputText = "X";
+                //inputText = "A"; X
+                inputText = "A";
                 break;
             //Y-button
             case ActivateKeys.Triangle:
                 //inputText = "w";
-                inputText = "Y";
+                inputText = "w";
                 break;
             default:
                 break;

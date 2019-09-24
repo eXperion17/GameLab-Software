@@ -9,6 +9,7 @@ public class PlayerInput : MonoBehaviour {
     public TowerBase currentTower;
     private TowerBase tower = null;
     private TowerBase mainTower;
+	private SoundManager soundManager;
     public int success = 0;
     //bool isButtonDown = false;
     private float timer;
@@ -18,7 +19,10 @@ public class PlayerInput : MonoBehaviour {
     private TutorialManager tutorialManager;
     // Use this for initialization
     void Start() {
-        ChangeCurrenTower(towerBase);
+
+		soundManager = SoundLocator.GetSoundManager();
+
+		ChangeCurrenTower(towerBase);
         towerBase = GameObject.Find("MainTower").GetComponent<TowerBase>();
         towerBase.TextActivator(towerBase.children);
         if(SceneManager.GetActiveScene().name == "_Tutorial")
@@ -95,7 +99,8 @@ public class PlayerInput : MonoBehaviour {
         if (tower != null)
         {
             tower.TextActivator(tower.children);
-            SoundManager.Instance.PlayTowerShoot();
+            //SoundManager.Instance.PlayTowerShoot();
+			soundManager.PlayTowerShoot();
             if (tower.Active())
             {
                 towerBase.ResetTextTowers();
@@ -117,7 +122,7 @@ public class PlayerInput : MonoBehaviour {
     }
     void Explosion(TowerBase tower)
     {
-        tower.Explosion();
+        tower.Explosion(null);
         ChangeCurrenTower(tower);
     }
 }
