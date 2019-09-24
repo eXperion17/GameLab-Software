@@ -1,0 +1,157 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+public class TowerBase : MonoBehaviour {
+    [SerializeField]
+    public TowerBase parentTower;
+    [SerializeField]
+    public Tower[] children;
+    private TowerBase mainTower;
+    [SerializeField]
+    private GameObject explosion;
+
+    [SerializeField]
+    private Animation animations;
+    private GameObject ashes;
+
+
+    [SerializeField]
+    protected bool isActive = true;
+
+    public enum ActivateKeys
+    {
+        X = 0,
+        Circle = 1,
+        Square = 2,
+        Triangle = 3
+    }
+
+    // Use this for initialization
+<<<<<<< HEAD
+    void Start () {
+        GetComponent<SpriteRenderer>().color = Color.green;
+        mainTower = GameObject.Find("MainTower").GetComponent<TowerBase>();
+=======
+    protected virtual void Start () {
+        //children = new Tower[4];
+        //GetComponent<SpriteRenderer>().color = Color.green;
+
+        animations = gameObject.GetComponentInChildren<Animation>();
+        //ashes =
+
+        //animations = GameObject.Find("TowerV1").GetComponent<Animation>();
+
+        if (!isActive) animations.Play("Destroyed");
+>>>>>>> TowerModelBranch
+    }
+	
+	// Update is called once per frame
+	void Update () {
+		
+	}
+
+
+    public void TextActivator(Tower[] children)
+    {
+        
+        foreach (Tower child in children)
+        {
+            if (child.isActive)
+            {
+                child.inputText = child.GetComponentInChildren<Text>();
+                child.inputText.text = child.InputToString(child.GetActivationKey());
+            }
+     
+        }
+    }
+
+    virtual public void ResetTextTowers()
+    {
+        foreach (Tower tower in children)
+        {
+            tower.GetComponentInChildren<Text>().text = "";
+            tower.ResetTextTowers();
+        }
+    }
+    public void SetParent(TowerBase tower) {
+		parentTower = tower;
+	}
+
+	public void AddChild(Tower child) {
+		if (children.Length == 4) {
+			Debug.Log("Tower exceeds children limit!");
+		}
+		children[children.Length] = child;
+	}
+
+	public Tower GetChildByKey(Tower.ActivateKeys input) {
+		for (int i = 0; i < children.Length; i++) {
+			Tower tempChild = children[i];
+			if (tempChild.GetActivationKey() == input) {
+				return tempChild;
+			}
+		}
+
+		return null;
+	}
+    
+    void OnTriggerEnter(Collider other) {
+        if (other.CompareTag("Enemy")) {
+            Die();
+        }
+    }
+    
+    public void OnActivation() {
+        GameObject go = Instantiate(explosion, transform);
+        go.transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z);
+    }
+
+    virtual public void Die() {
+        if (!isActive) return;
+
+        //TODO REMOVE WHEN MAIN TOWER HAS MODEL
+        if (gameObject.name != "MainTower") {
+            animations.Play("Destruction");
+        }
+        isActive = false;
+        GetComponent<SpriteRenderer>().enabled = false;
+
+        ResetTextTowers();
+        this.gameObject.GetComponentInChildren<Text>().text = "";
+        for (int i = 0; i < children.Length; i++)
+        {
+            if (children[i].Active()) children[i].Invoke("Die", 1f);
+        }
+        //GetComponent<SpriteRenderer>().enabled = false;
+    }
+
+    virtual public void activateAllChildren()
+    {
+        foreach (Tower tower in children)
+        {
+            tower.SetActive();
+            tower.Invoke("activateAllChildren", 1f);
+        }
+    }
+
+    public bool Active() {
+        return isActive;
+    }
+
+    public void SetActive() {
+        OnActivation();
+        if (parentTower.Active())
+        {
+            GetComponent<SpriteRenderer>().enabled = true;
+            isActive = true;
+<<<<<<< HEAD
+            //GetComponent<SpriteRenderer>().color = Color.green;
+=======
+            animations.Play("Repair");
+            GetComponent<SpriteRenderer>().color = Color.cyan;
+>>>>>>> TowerModelBranch
+        }
+
+    }
+}

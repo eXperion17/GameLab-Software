@@ -1,0 +1,509 @@
+fileFormatVersion: 2
+guid: b5e08ba8dbb9ef54f90d01d65ff18a54
+timeCreated: 1484966367
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Box001
+    100002: Box002
+    100004: Roof
+    100006: Shape
+    100008: //RootNode
+    100010: DestroyedTower_Brick00
+    100012: DestroyedTower_Brick01
+    100014: DestroyedTower_Brick02
+    100016: DestroyedTower_Brick03
+    100018: DestroyedTower_Brick04
+    100020: DestroyedTower_Brick05
+    100022: DestroyedTower_Brick06
+    100024: DestroyedTower_Brick07
+    100026: DestroyedTower_Brick08
+    100028: DestroyedTower_Brick09
+    100030: DestroyedTower_Brick10
+    100032: DestroyedTower_Brick11
+    100034: DestroyedTower_Brick12
+    100036: DestroyedTower_Brick13
+    100038: DestroyedTower_Brick14
+    100040: DestroyedTower_Brick15
+    100042: DestroyedTower_Brick16
+    100044: DestroyedTower_Brick17
+    100046: DestroyedTower_Brick18
+    100048: DestroyedTower_Gravel
+    400000: Box001
+    400002: Box002
+    400004: Roof
+    400006: Shape
+    400008: //RootNode
+    400010: DestroyedTower_Brick00
+    400012: DestroyedTower_Brick01
+    400014: DestroyedTower_Brick02
+    400016: DestroyedTower_Brick03
+    400018: DestroyedTower_Brick04
+    400020: DestroyedTower_Brick05
+    400022: DestroyedTower_Brick06
+    400024: DestroyedTower_Brick07
+    400026: DestroyedTower_Brick08
+    400028: DestroyedTower_Brick09
+    400030: DestroyedTower_Brick10
+    400032: DestroyedTower_Brick11
+    400034: DestroyedTower_Brick12
+    400036: DestroyedTower_Brick13
+    400038: DestroyedTower_Brick14
+    400040: DestroyedTower_Brick15
+    400042: DestroyedTower_Brick16
+    400044: DestroyedTower_Brick17
+    400046: DestroyedTower_Brick18
+    400048: DestroyedTower_Gravel
+    2300000: Box001
+    2300002: Box002
+    2300004: Roof
+    2300006: Shape
+    2300008: //RootNode
+    2300010: DestroyedTower_Brick00
+    2300012: DestroyedTower_Brick01
+    2300014: DestroyedTower_Brick02
+    2300016: DestroyedTower_Brick03
+    2300018: DestroyedTower_Brick04
+    2300020: DestroyedTower_Brick05
+    2300022: DestroyedTower_Brick06
+    2300024: DestroyedTower_Brick07
+    2300026: DestroyedTower_Brick08
+    2300028: DestroyedTower_Brick09
+    2300030: DestroyedTower_Brick10
+    2300032: DestroyedTower_Brick11
+    2300034: DestroyedTower_Brick12
+    2300036: DestroyedTower_Brick13
+    2300038: DestroyedTower_Brick14
+    2300040: DestroyedTower_Brick15
+    2300042: DestroyedTower_Brick16
+    2300044: DestroyedTower_Brick17
+    2300046: DestroyedTower_Brick18
+    2300048: DestroyedTower_Gravel
+    3300000: Box001
+    3300002: Box002
+    3300004: Roof
+    3300006: Shape
+    3300008: //RootNode
+    3300010: DestroyedTower_Brick00
+    3300012: DestroyedTower_Brick01
+    3300014: DestroyedTower_Brick02
+    3300016: DestroyedTower_Brick03
+    3300018: DestroyedTower_Brick04
+    3300020: DestroyedTower_Brick05
+    3300022: DestroyedTower_Brick06
+    3300024: DestroyedTower_Brick07
+    3300026: DestroyedTower_Brick08
+    3300028: DestroyedTower_Brick09
+    3300030: DestroyedTower_Brick10
+    3300032: DestroyedTower_Brick11
+    3300034: DestroyedTower_Brick12
+    3300036: DestroyedTower_Brick13
+    3300038: DestroyedTower_Brick14
+    3300040: DestroyedTower_Brick15
+    3300042: DestroyedTower_Brick16
+    3300044: DestroyedTower_Brick17
+    3300046: DestroyedTower_Brick18
+    3300048: DestroyedTower_Gravel
+    4300000: Box001
+    4300002: Roof
+    4300004: Shape
+    4300006: Box002
+    4300008: DestroyedTower_Gravel
+    4300010: DestroyedTower_Brick00
+    4300012: DestroyedTower_Brick01
+    4300014: DestroyedTower_Brick02
+    4300016: DestroyedTower_Brick03
+    4300018: DestroyedTower_Brick04
+    4300020: DestroyedTower_Brick05
+    4300022: DestroyedTower_Brick06
+    4300024: DestroyedTower_Brick07
+    4300026: DestroyedTower_Brick08
+    4300028: DestroyedTower_Brick09
+    4300030: DestroyedTower_Brick10
+    4300032: DestroyedTower_Brick11
+    4300034: DestroyedTower_Brick12
+    4300036: DestroyedTower_Brick13
+    4300038: DestroyedTower_Brick14
+    4300040: DestroyedTower_Brick15
+    4300042: DestroyedTower_Brick16
+    4300044: DestroyedTower_Brick17
+    4300046: DestroyedTower_Brick18
+    7400000: Idle
+    7400002: Destruction
+    7400004: Repair
+    7400006: Destroyed
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 4
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Box001
+        weight: 1
+      - path: Box001/Roof
+        weight: 1
+      - path: Box001/Shape
+        weight: 1
+      - path: DestroyedTower_Gravel
+        weight: 1
+      - path: DestroyedTower_Gravel/DestroyedTower_Brick00
+        weight: 1
+      - path: DestroyedTower_Gravel/DestroyedTower_Brick01
+        weight: 1
+      - path: DestroyedTower_Gravel/DestroyedTower_Brick02
+        weight: 1
+      - path: DestroyedTower_Gravel/DestroyedTower_Brick03
+        weight: 1
+      - path: DestroyedTower_Gravel/DestroyedTower_Brick04
+        weight: 1
+      - path: DestroyedTower_Gravel/DestroyedTower_Brick05
+        weight: 1
+      - path: DestroyedTower_Gravel/DestroyedTower_Brick06
+        weight: 1
+      - path: DestroyedTower_Gravel/DestroyedTower_Brick07
+        weight: 1
+      - path: DestroyedTower_Gravel/DestroyedTower_Brick08
+        weight: 1
+      - path: DestroyedTower_Gravel/DestroyedTower_Brick09
+        weight: 1
+      - path: DestroyedTower_Gravel/DestroyedTower_Brick10
+        weight: 1
+      - path: DestroyedTower_Gravel/DestroyedTower_Brick11
+        weight: 1
+      - path: DestroyedTower_Gravel/DestroyedTower_Brick12
+        weight: 1
+      - path: DestroyedTower_Gravel/DestroyedTower_Brick13
+        weight: 1
+      - path: DestroyedTower_Gravel/DestroyedTower_Brick14
+        weight: 1
+      - path: DestroyedTower_Gravel/DestroyedTower_Brick15
+        weight: 1
+      - path: DestroyedTower_Gravel/DestroyedTower_Brick16
+        weight: 1
+      - path: DestroyedTower_Gravel/DestroyedTower_Brick17
+        weight: 1
+      - path: DestroyedTower_Gravel/DestroyedTower_Brick18
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Destruction
+      takeName: Take 001
+      firstFrame: 5
+      lastFrame: 50
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Box001
+        weight: 1
+      - path: Box001/Roof
+        weight: 1
+      - path: Box001/Shape
+        weight: 1
+      - path: DestroyedTower_Gravel
+        weight: 1
+      - path: DestroyedTower_Gravel/DestroyedTower_Brick00
+        weight: 1
+      - path: DestroyedTower_Gravel/DestroyedTower_Brick01
+        weight: 1
+      - path: DestroyedTower_Gravel/DestroyedTower_Brick02
+        weight: 1
+      - path: DestroyedTower_Gravel/DestroyedTower_Brick03
+        weight: 1
+      - path: DestroyedTower_Gravel/DestroyedTower_Brick04
+        weight: 1
+      - path: DestroyedTower_Gravel/DestroyedTower_Brick05
+        weight: 1
+      - path: DestroyedTower_Gravel/DestroyedTower_Brick06
+        weight: 1
+      - path: DestroyedTower_Gravel/DestroyedTower_Brick07
+        weight: 1
+      - path: DestroyedTower_Gravel/DestroyedTower_Brick08
+        weight: 1
+      - path: DestroyedTower_Gravel/DestroyedTower_Brick09
+        weight: 1
+      - path: DestroyedTower_Gravel/DestroyedTower_Brick10
+        weight: 1
+      - path: DestroyedTower_Gravel/DestroyedTower_Brick11
+        weight: 1
+      - path: DestroyedTower_Gravel/DestroyedTower_Brick12
+        weight: 1
+      - path: DestroyedTower_Gravel/DestroyedTower_Brick13
+        weight: 1
+      - path: DestroyedTower_Gravel/DestroyedTower_Brick14
+        weight: 1
+      - path: DestroyedTower_Gravel/DestroyedTower_Brick15
+        weight: 1
+      - path: DestroyedTower_Gravel/DestroyedTower_Brick16
+        weight: 1
+      - path: DestroyedTower_Gravel/DestroyedTower_Brick17
+        weight: 1
+      - path: DestroyedTower_Gravel/DestroyedTower_Brick18
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Repair
+      takeName: Take 001
+      firstFrame: 55
+      lastFrame: 75
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Box001
+        weight: 1
+      - path: Box001/Roof
+        weight: 1
+      - path: Box001/Shape
+        weight: 1
+      - path: DestroyedTower_Gravel
+        weight: 1
+      - path: DestroyedTower_Gravel/DestroyedTower_Brick00
+        weight: 1
+      - path: DestroyedTower_Gravel/DestroyedTower_Brick01
+        weight: 1
+      - path: DestroyedTower_Gravel/DestroyedTower_Brick02
+        weight: 1
+      - path: DestroyedTower_Gravel/DestroyedTower_Brick03
+        weight: 1
+      - path: DestroyedTower_Gravel/DestroyedTower_Brick04
+        weight: 1
+      - path: DestroyedTower_Gravel/DestroyedTower_Brick05
+        weight: 1
+      - path: DestroyedTower_Gravel/DestroyedTower_Brick06
+        weight: 1
+      - path: DestroyedTower_Gravel/DestroyedTower_Brick07
+        weight: 1
+      - path: DestroyedTower_Gravel/DestroyedTower_Brick08
+        weight: 1
+      - path: DestroyedTower_Gravel/DestroyedTower_Brick09
+        weight: 1
+      - path: DestroyedTower_Gravel/DestroyedTower_Brick10
+        weight: 1
+      - path: DestroyedTower_Gravel/DestroyedTower_Brick11
+        weight: 1
+      - path: DestroyedTower_Gravel/DestroyedTower_Brick12
+        weight: 1
+      - path: DestroyedTower_Gravel/DestroyedTower_Brick13
+        weight: 1
+      - path: DestroyedTower_Gravel/DestroyedTower_Brick14
+        weight: 1
+      - path: DestroyedTower_Gravel/DestroyedTower_Brick15
+        weight: 1
+      - path: DestroyedTower_Gravel/DestroyedTower_Brick16
+        weight: 1
+      - path: DestroyedTower_Gravel/DestroyedTower_Brick17
+        weight: 1
+      - path: DestroyedTower_Gravel/DestroyedTower_Brick18
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Destroyed
+      takeName: Take 001
+      firstFrame: 51
+      lastFrame: 52
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Box001
+        weight: 1
+      - path: Box001/Roof
+        weight: 1
+      - path: Box001/Shape
+        weight: 1
+      - path: DestroyedTower_Gravel
+        weight: 1
+      - path: DestroyedTower_Gravel/DestroyedTower_Brick00
+        weight: 1
+      - path: DestroyedTower_Gravel/DestroyedTower_Brick01
+        weight: 1
+      - path: DestroyedTower_Gravel/DestroyedTower_Brick02
+        weight: 1
+      - path: DestroyedTower_Gravel/DestroyedTower_Brick03
+        weight: 1
+      - path: DestroyedTower_Gravel/DestroyedTower_Brick04
+        weight: 1
+      - path: DestroyedTower_Gravel/DestroyedTower_Brick05
+        weight: 1
+      - path: DestroyedTower_Gravel/DestroyedTower_Brick06
+        weight: 1
+      - path: DestroyedTower_Gravel/DestroyedTower_Brick07
+        weight: 1
+      - path: DestroyedTower_Gravel/DestroyedTower_Brick08
+        weight: 1
+      - path: DestroyedTower_Gravel/DestroyedTower_Brick09
+        weight: 1
+      - path: DestroyedTower_Gravel/DestroyedTower_Brick10
+        weight: 1
+      - path: DestroyedTower_Gravel/DestroyedTower_Brick11
+        weight: 1
+      - path: DestroyedTower_Gravel/DestroyedTower_Brick12
+        weight: 1
+      - path: DestroyedTower_Gravel/DestroyedTower_Brick13
+        weight: 1
+      - path: DestroyedTower_Gravel/DestroyedTower_Brick14
+        weight: 1
+      - path: DestroyedTower_Gravel/DestroyedTower_Brick15
+        weight: 1
+      - path: DestroyedTower_Gravel/DestroyedTower_Brick16
+        weight: 1
+      - path: DestroyedTower_Gravel/DestroyedTower_Brick17
+        weight: 1
+      - path: DestroyedTower_Gravel/DestroyedTower_Brick18
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.3
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,659 @@
+fileFormatVersion: 2
+guid: 9a00e7f0424012f4797430128ad60939
+timeCreated: 1485031571
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: DestroyedMainTower_B00
+    100002: DestroyedMainTower_B01
+    100004: DestroyedMainTower_B02
+    100006: DestroyedMainTower_B03
+    100008: DestroyedMainTower_B04
+    100010: DestroyedMainTower_B05
+    100012: DestroyedMainTower_B06
+    100014: DestroyedMainTower_B07
+    100016: DestroyedMainTower_B08
+    100018: DestroyedMainTower_B09
+    100020: DestroyedMainTower_B10
+    100022: DestroyedMainTower_B11
+    100024: DestroyedMainTower_B12
+    100026: DestroyedMainTower_B13
+    100028: DestroyedMainTower_B14
+    100030: DestroyedMainTower_B15
+    100032: DestroyedMainTower_B16
+    100034: DestroyedMainTower_B17
+    100036: DestroyedMainTower_B18
+    100038: DestroyedMainTower_B19
+    100040: DestroyedMainTower_B20
+    100042: DestroyedMainTower_B21
+    100044: DestroyedMainTower_B22
+    100046: DestroyedMainTower_B23
+    100048: DestroyedMainTower_B24
+    100050: DestroyedMainTower_B25
+    100052: DestroyedMainTower_B26
+    100054: DestroyedMainTower_B27
+    100056: DestroyedMainTower_B28
+    100058: DestroyedMainTower_B29
+    100060: DestroyedMainTower_B30
+    100062: DestroyedMainTower_B31
+    100064: DestroyedMainTower_B32
+    100066: DestroyedMainTower_B33
+    100068: DestroyedMainTower_B34
+    100070: DestroyedMainTower_B35
+    100072: DestroyedMainTower_B36
+    100074: DestroyedMainTower_B37
+    100076: DestroyedMainTower_B38
+    100078: DestroyedMainTower_B39
+    100080: DestroyedMainTower_B40
+    100082: DestroyedMainTower_B41
+    100084: DestroyedMainTower_B42
+    100086: DestroyedMainTower_B43
+    100088: DestroyedMainTower_B44
+    100090: DestroyedMainTower_B45
+    100092: DestroyedMainTower_B46
+    100094: DestroyedMainTower_B47
+    100096: DestroyedMainTower_B48
+    100098: DestroyedMainTower_B49
+    100100: DestroyedMainTower_B50
+    100102: DestroyedMainTower_B51
+    100104: DestroyedMainTower_B52
+    100106: DestroyedMainTower_B53
+    100108: DestroyedMainTower_B54
+    100110: DestroyedMainTower_B55
+    100112: DestroyedMainTower_B56
+    100114: DestroyedMainTower_B57
+    100116: DestroyedMainTower_B58
+    100118: DestroyedMainTower_B59
+    100120: DestroyedMainTower_B60
+    100122: DestroyedMainTower_B61
+    100124: DestroyedMainTower_B62
+    100126: DestroyedMainTower_B63
+    100128: DestroyedMainTower_B64
+    100130: DestroyedMainTower_B65
+    100132: DestroyedMainTower_B66
+    100134: DestroyedMainTower_B67
+    100136: DestroyedMainTower_B68
+    100138: DestroyedMainTower_B69
+    100140: DestroyedMainTower_B70
+    100142: DestroyedMainTower_B71
+    100144: DestroyedMainTower_B72
+    100146: DestroyedMainTower_B73
+    100148: DestroyedMainTower_B74
+    100150: DestroyedMainTower_B75
+    100152: DestroyedMainTower_B76
+    100154: DestroyedMainTower_B77
+    100156: //RootNode
+    400000: DestroyedMainTower_B00
+    400002: DestroyedMainTower_B01
+    400004: DestroyedMainTower_B02
+    400006: DestroyedMainTower_B03
+    400008: DestroyedMainTower_B04
+    400010: DestroyedMainTower_B05
+    400012: DestroyedMainTower_B06
+    400014: DestroyedMainTower_B07
+    400016: DestroyedMainTower_B08
+    400018: DestroyedMainTower_B09
+    400020: DestroyedMainTower_B10
+    400022: DestroyedMainTower_B11
+    400024: DestroyedMainTower_B12
+    400026: DestroyedMainTower_B13
+    400028: DestroyedMainTower_B14
+    400030: DestroyedMainTower_B15
+    400032: DestroyedMainTower_B16
+    400034: DestroyedMainTower_B17
+    400036: DestroyedMainTower_B18
+    400038: DestroyedMainTower_B19
+    400040: DestroyedMainTower_B20
+    400042: DestroyedMainTower_B21
+    400044: DestroyedMainTower_B22
+    400046: DestroyedMainTower_B23
+    400048: DestroyedMainTower_B24
+    400050: DestroyedMainTower_B25
+    400052: DestroyedMainTower_B26
+    400054: DestroyedMainTower_B27
+    400056: DestroyedMainTower_B28
+    400058: DestroyedMainTower_B29
+    400060: DestroyedMainTower_B30
+    400062: DestroyedMainTower_B31
+    400064: DestroyedMainTower_B32
+    400066: DestroyedMainTower_B33
+    400068: DestroyedMainTower_B34
+    400070: DestroyedMainTower_B35
+    400072: DestroyedMainTower_B36
+    400074: DestroyedMainTower_B37
+    400076: DestroyedMainTower_B38
+    400078: DestroyedMainTower_B39
+    400080: DestroyedMainTower_B40
+    400082: DestroyedMainTower_B41
+    400084: DestroyedMainTower_B42
+    400086: DestroyedMainTower_B43
+    400088: DestroyedMainTower_B44
+    400090: DestroyedMainTower_B45
+    400092: DestroyedMainTower_B46
+    400094: DestroyedMainTower_B47
+    400096: DestroyedMainTower_B48
+    400098: DestroyedMainTower_B49
+    400100: DestroyedMainTower_B50
+    400102: DestroyedMainTower_B51
+    400104: DestroyedMainTower_B52
+    400106: DestroyedMainTower_B53
+    400108: DestroyedMainTower_B54
+    400110: DestroyedMainTower_B55
+    400112: DestroyedMainTower_B56
+    400114: DestroyedMainTower_B57
+    400116: DestroyedMainTower_B58
+    400118: DestroyedMainTower_B59
+    400120: DestroyedMainTower_B60
+    400122: DestroyedMainTower_B61
+    400124: DestroyedMainTower_B62
+    400126: DestroyedMainTower_B63
+    400128: DestroyedMainTower_B64
+    400130: DestroyedMainTower_B65
+    400132: DestroyedMainTower_B66
+    400134: DestroyedMainTower_B67
+    400136: DestroyedMainTower_B68
+    400138: DestroyedMainTower_B69
+    400140: DestroyedMainTower_B70
+    400142: DestroyedMainTower_B71
+    400144: DestroyedMainTower_B72
+    400146: DestroyedMainTower_B73
+    400148: DestroyedMainTower_B74
+    400150: DestroyedMainTower_B75
+    400152: DestroyedMainTower_B76
+    400154: DestroyedMainTower_B77
+    400156: //RootNode
+    2300000: DestroyedMainTower_B00
+    2300002: DestroyedMainTower_B01
+    2300004: DestroyedMainTower_B02
+    2300006: DestroyedMainTower_B03
+    2300008: DestroyedMainTower_B04
+    2300010: DestroyedMainTower_B05
+    2300012: DestroyedMainTower_B06
+    2300014: DestroyedMainTower_B07
+    2300016: DestroyedMainTower_B08
+    2300018: DestroyedMainTower_B09
+    2300020: DestroyedMainTower_B10
+    2300022: DestroyedMainTower_B11
+    2300024: DestroyedMainTower_B12
+    2300026: DestroyedMainTower_B13
+    2300028: DestroyedMainTower_B14
+    2300030: DestroyedMainTower_B15
+    2300032: DestroyedMainTower_B16
+    2300034: DestroyedMainTower_B17
+    2300036: DestroyedMainTower_B18
+    2300038: DestroyedMainTower_B19
+    2300040: DestroyedMainTower_B20
+    2300042: DestroyedMainTower_B21
+    2300044: DestroyedMainTower_B22
+    2300046: DestroyedMainTower_B23
+    2300048: DestroyedMainTower_B24
+    2300050: DestroyedMainTower_B25
+    2300052: DestroyedMainTower_B26
+    2300054: DestroyedMainTower_B27
+    2300056: DestroyedMainTower_B28
+    2300058: DestroyedMainTower_B29
+    2300060: DestroyedMainTower_B30
+    2300062: DestroyedMainTower_B31
+    2300064: DestroyedMainTower_B32
+    2300066: DestroyedMainTower_B33
+    2300068: DestroyedMainTower_B34
+    2300070: DestroyedMainTower_B35
+    2300072: DestroyedMainTower_B36
+    2300074: DestroyedMainTower_B37
+    2300076: DestroyedMainTower_B38
+    2300078: DestroyedMainTower_B39
+    2300080: DestroyedMainTower_B40
+    2300082: DestroyedMainTower_B41
+    2300084: DestroyedMainTower_B42
+    2300086: DestroyedMainTower_B43
+    2300088: DestroyedMainTower_B44
+    2300090: DestroyedMainTower_B45
+    2300092: DestroyedMainTower_B46
+    2300094: DestroyedMainTower_B47
+    2300096: DestroyedMainTower_B48
+    2300098: DestroyedMainTower_B49
+    2300100: DestroyedMainTower_B50
+    2300102: DestroyedMainTower_B51
+    2300104: DestroyedMainTower_B52
+    2300106: DestroyedMainTower_B53
+    2300108: DestroyedMainTower_B54
+    2300110: DestroyedMainTower_B55
+    2300112: DestroyedMainTower_B56
+    2300114: DestroyedMainTower_B57
+    2300116: DestroyedMainTower_B58
+    2300118: DestroyedMainTower_B59
+    2300120: DestroyedMainTower_B60
+    2300122: DestroyedMainTower_B61
+    2300124: DestroyedMainTower_B62
+    2300126: DestroyedMainTower_B63
+    2300128: DestroyedMainTower_B64
+    2300130: DestroyedMainTower_B65
+    2300132: DestroyedMainTower_B66
+    2300134: DestroyedMainTower_B67
+    2300136: DestroyedMainTower_B68
+    2300138: DestroyedMainTower_B69
+    2300140: DestroyedMainTower_B70
+    2300142: DestroyedMainTower_B71
+    2300144: DestroyedMainTower_B72
+    2300146: DestroyedMainTower_B73
+    2300148: DestroyedMainTower_B74
+    2300150: DestroyedMainTower_B75
+    2300152: DestroyedMainTower_B76
+    2300154: DestroyedMainTower_B77
+    2300156: //RootNode
+    3300000: DestroyedMainTower_B00
+    3300002: DestroyedMainTower_B01
+    3300004: DestroyedMainTower_B02
+    3300006: DestroyedMainTower_B03
+    3300008: DestroyedMainTower_B04
+    3300010: DestroyedMainTower_B05
+    3300012: DestroyedMainTower_B06
+    3300014: DestroyedMainTower_B07
+    3300016: DestroyedMainTower_B08
+    3300018: DestroyedMainTower_B09
+    3300020: DestroyedMainTower_B10
+    3300022: DestroyedMainTower_B11
+    3300024: DestroyedMainTower_B12
+    3300026: DestroyedMainTower_B13
+    3300028: DestroyedMainTower_B14
+    3300030: DestroyedMainTower_B15
+    3300032: DestroyedMainTower_B16
+    3300034: DestroyedMainTower_B17
+    3300036: DestroyedMainTower_B18
+    3300038: DestroyedMainTower_B19
+    3300040: DestroyedMainTower_B20
+    3300042: DestroyedMainTower_B21
+    3300044: DestroyedMainTower_B22
+    3300046: DestroyedMainTower_B23
+    3300048: DestroyedMainTower_B24
+    3300050: DestroyedMainTower_B25
+    3300052: DestroyedMainTower_B26
+    3300054: DestroyedMainTower_B27
+    3300056: DestroyedMainTower_B28
+    3300058: DestroyedMainTower_B29
+    3300060: DestroyedMainTower_B30
+    3300062: DestroyedMainTower_B31
+    3300064: DestroyedMainTower_B32
+    3300066: DestroyedMainTower_B33
+    3300068: DestroyedMainTower_B34
+    3300070: DestroyedMainTower_B35
+    3300072: DestroyedMainTower_B36
+    3300074: DestroyedMainTower_B37
+    3300076: DestroyedMainTower_B38
+    3300078: DestroyedMainTower_B39
+    3300080: DestroyedMainTower_B40
+    3300082: DestroyedMainTower_B41
+    3300084: DestroyedMainTower_B42
+    3300086: DestroyedMainTower_B43
+    3300088: DestroyedMainTower_B44
+    3300090: DestroyedMainTower_B45
+    3300092: DestroyedMainTower_B46
+    3300094: DestroyedMainTower_B47
+    3300096: DestroyedMainTower_B48
+    3300098: DestroyedMainTower_B49
+    3300100: DestroyedMainTower_B50
+    3300102: DestroyedMainTower_B51
+    3300104: DestroyedMainTower_B52
+    3300106: DestroyedMainTower_B53
+    3300108: DestroyedMainTower_B54
+    3300110: DestroyedMainTower_B55
+    3300112: DestroyedMainTower_B56
+    3300114: DestroyedMainTower_B57
+    3300116: DestroyedMainTower_B58
+    3300118: DestroyedMainTower_B59
+    3300120: DestroyedMainTower_B60
+    3300122: DestroyedMainTower_B61
+    3300124: DestroyedMainTower_B62
+    3300126: DestroyedMainTower_B63
+    3300128: DestroyedMainTower_B64
+    3300130: DestroyedMainTower_B65
+    3300132: DestroyedMainTower_B66
+    3300134: DestroyedMainTower_B67
+    3300136: DestroyedMainTower_B68
+    3300138: DestroyedMainTower_B69
+    3300140: DestroyedMainTower_B70
+    3300142: DestroyedMainTower_B71
+    3300144: DestroyedMainTower_B72
+    3300146: DestroyedMainTower_B73
+    3300148: DestroyedMainTower_B74
+    3300150: DestroyedMainTower_B75
+    3300152: DestroyedMainTower_B76
+    3300154: DestroyedMainTower_B77
+    3300156: //RootNode
+    4300000: DestroyedMainTower01
+    4300002: DestroyedMainTower_B00
+    4300004: DestroyedMainTower_B76
+    4300006: DestroyedMainTower_B75
+    4300008: DestroyedMainTower_B74
+    4300010: DestroyedMainTower_B73
+    4300012: DestroyedMainTower_B72
+    4300014: DestroyedMainTower_B71
+    4300016: DestroyedMainTower_B70
+    4300018: DestroyedMainTower_B08
+    4300020: DestroyedMainTower_B09
+    4300022: DestroyedMainTower_B69
+    4300024: DestroyedMainTower_B68
+    4300026: DestroyedMainTower_B67
+    4300028: DestroyedMainTower_B66
+    4300030: DestroyedMainTower_B65
+    4300032: DestroyedMainTower_B64
+    4300034: DestroyedMainTower_B63
+    4300036: DestroyedMainTower_B62
+    4300038: DestroyedMainTower_B61
+    4300040: DestroyedMainTower_B19
+    4300042: DestroyedMainTower_B20
+    4300044: DestroyedMainTower_B60
+    4300046: DestroyedMainTower_B59
+    4300048: DestroyedMainTower_B58
+    4300050: DestroyedMainTower_B57
+    4300052: DestroyedMainTower_B25
+    4300054: DestroyedMainTower_B77
+    4300056: DestroyedMainTower_B27
+    4300058: DestroyedMainTower_B28
+    4300060: DestroyedMainTower_B29
+    4300062: DestroyedMainTower_B30
+    4300064: DestroyedMainTower_B31
+    4300066: DestroyedMainTower_B32
+    4300068: DestroyedMainTower_B33
+    4300070: DestroyedMainTower_B34
+    4300072: DestroyedMainTower_B35
+    4300074: DestroyedMainTower_B36
+    4300076: DestroyedMainTower_B37
+    4300078: DestroyedMainTower_B38
+    4300080: DestroyedMainTower_B39
+    4300082: DestroyedMainTower_B40
+    4300084: DestroyedMainTower_B41
+    4300086: DestroyedMainTower_B42
+    4300088: DestroyedMainTower_B43
+    4300090: DestroyedMainTower_B44
+    4300092: DestroyedMainTower_B45
+    4300094: DestroyedMainTower_B46
+    4300096: DestroyedMainTower_B47
+    4300098: DestroyedMainTower_B48
+    4300100: DestroyedMainTower_B49
+    4300102: DestroyedMainTower_B50
+    4300104: DestroyedMainTower_B51
+    4300106: DestroyedMainTower_B52
+    4300108: DestroyedMainTower_B53
+    4300110: DestroyedMainTower_B54
+    4300112: DestroyedMainTower_B55
+    4300114: DestroyedMainTower_B26
+    4300116: DestroyedMainTower_B24
+    4300118: DestroyedMainTower_B23
+    4300120: DestroyedMainTower_B22
+    4300122: DestroyedMainTower_B21
+    4300124: DestroyedMainTower_B18
+    4300126: DestroyedMainTower_B17
+    4300128: DestroyedMainTower_B16
+    4300130: DestroyedMainTower_B15
+    4300132: DestroyedMainTower_B14
+    4300134: DestroyedMainTower_B13
+    4300136: DestroyedMainTower_B12
+    4300138: DestroyedMainTower_B11
+    4300140: DestroyedMainTower_B10
+    4300142: DestroyedMainTower_B07
+    4300144: DestroyedMainTower_B06
+    4300146: DestroyedMainTower_B05
+    4300148: DestroyedMainTower_B04
+    4300150: DestroyedMainTower_B03
+    4300152: DestroyedMainTower_B02
+    4300154: DestroyedMainTower_B01
+    4300156: DestroyedMainTower_B56
+    7400000: MainTower_Destruction
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: MainTower_Destruction
+      takeName: Take 001
+      firstFrame: 5
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: DestroyedMainTower_B00
+        weight: 1
+      - path: DestroyedMainTower_B01
+        weight: 1
+      - path: DestroyedMainTower_B02
+        weight: 1
+      - path: DestroyedMainTower_B03
+        weight: 1
+      - path: DestroyedMainTower_B04
+        weight: 1
+      - path: DestroyedMainTower_B05
+        weight: 1
+      - path: DestroyedMainTower_B06
+        weight: 1
+      - path: DestroyedMainTower_B07
+        weight: 1
+      - path: DestroyedMainTower_B08
+        weight: 1
+      - path: DestroyedMainTower_B09
+        weight: 1
+      - path: DestroyedMainTower_B10
+        weight: 1
+      - path: DestroyedMainTower_B11
+        weight: 1
+      - path: DestroyedMainTower_B12
+        weight: 1
+      - path: DestroyedMainTower_B13
+        weight: 1
+      - path: DestroyedMainTower_B14
+        weight: 1
+      - path: DestroyedMainTower_B15
+        weight: 1
+      - path: DestroyedMainTower_B16
+        weight: 1
+      - path: DestroyedMainTower_B17
+        weight: 1
+      - path: DestroyedMainTower_B18
+        weight: 1
+      - path: DestroyedMainTower_B19
+        weight: 1
+      - path: DestroyedMainTower_B20
+        weight: 1
+      - path: DestroyedMainTower_B21
+        weight: 1
+      - path: DestroyedMainTower_B22
+        weight: 1
+      - path: DestroyedMainTower_B23
+        weight: 1
+      - path: DestroyedMainTower_B24
+        weight: 1
+      - path: DestroyedMainTower_B25
+        weight: 1
+      - path: DestroyedMainTower_B26
+        weight: 1
+      - path: DestroyedMainTower_B27
+        weight: 1
+      - path: DestroyedMainTower_B28
+        weight: 1
+      - path: DestroyedMainTower_B29
+        weight: 1
+      - path: DestroyedMainTower_B30
+        weight: 1
+      - path: DestroyedMainTower_B31
+        weight: 1
+      - path: DestroyedMainTower_B32
+        weight: 1
+      - path: DestroyedMainTower_B33
+        weight: 1
+      - path: DestroyedMainTower_B34
+        weight: 1
+      - path: DestroyedMainTower_B35
+        weight: 1
+      - path: DestroyedMainTower_B36
+        weight: 1
+      - path: DestroyedMainTower_B37
+        weight: 1
+      - path: DestroyedMainTower_B38
+        weight: 1
+      - path: DestroyedMainTower_B39
+        weight: 1
+      - path: DestroyedMainTower_B40
+        weight: 1
+      - path: DestroyedMainTower_B41
+        weight: 1
+      - path: DestroyedMainTower_B42
+        weight: 1
+      - path: DestroyedMainTower_B43
+        weight: 1
+      - path: DestroyedMainTower_B44
+        weight: 1
+      - path: DestroyedMainTower_B45
+        weight: 1
+      - path: DestroyedMainTower_B46
+        weight: 1
+      - path: DestroyedMainTower_B47
+        weight: 1
+      - path: DestroyedMainTower_B48
+        weight: 1
+      - path: DestroyedMainTower_B49
+        weight: 1
+      - path: DestroyedMainTower_B50
+        weight: 1
+      - path: DestroyedMainTower_B51
+        weight: 1
+      - path: DestroyedMainTower_B52
+        weight: 1
+      - path: DestroyedMainTower_B53
+        weight: 1
+      - path: DestroyedMainTower_B54
+        weight: 1
+      - path: DestroyedMainTower_B55
+        weight: 1
+      - path: DestroyedMainTower_B56
+        weight: 1
+      - path: DestroyedMainTower_B57
+        weight: 1
+      - path: DestroyedMainTower_B58
+        weight: 1
+      - path: DestroyedMainTower_B59
+        weight: 1
+      - path: DestroyedMainTower_B60
+        weight: 1
+      - path: DestroyedMainTower_B61
+        weight: 1
+      - path: DestroyedMainTower_B62
+        weight: 1
+      - path: DestroyedMainTower_B63
+        weight: 1
+      - path: DestroyedMainTower_B64
+        weight: 1
+      - path: DestroyedMainTower_B65
+        weight: 1
+      - path: DestroyedMainTower_B66
+        weight: 1
+      - path: DestroyedMainTower_B67
+        weight: 1
+      - path: DestroyedMainTower_B68
+        weight: 1
+      - path: DestroyedMainTower_B69
+        weight: 1
+      - path: DestroyedMainTower_B70
+        weight: 1
+      - path: DestroyedMainTower_B71
+        weight: 1
+      - path: DestroyedMainTower_B72
+        weight: 1
+      - path: DestroyedMainTower_B73
+        weight: 1
+      - path: DestroyedMainTower_B74
+        weight: 1
+      - path: DestroyedMainTower_B75
+        weight: 1
+      - path: DestroyedMainTower_B76
+        weight: 1
+      - path: DestroyedMainTower_B77
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.4
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
